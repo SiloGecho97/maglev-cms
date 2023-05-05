@@ -25,11 +25,13 @@ Things you may want to cover:
 
 # How To Run
 
-TO solve vite-ruby issue
+To solve vite-ruby issue
 
 ```
 export VITE_RUBY_SKIP_COMPATIBILITY_CHECK=true
 ```
+
+Maglev depends on ActiveStorage for the content asset uploading. So you need to setup ActiveStorage like this:
 
 ```
 bundle exec rails active_storage:install
